@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="anime.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light navbar-bg">
+        <a class="navbar-brand mr-auto" href="#">
+            <img src="https://res.cloudinary.com/dhesbckj8/image/upload/v1663253399/anime001_jkgekl.png" class="navbar-logo" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#" id="nav-list-1">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="nav-list-2">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span id="nav-list-3">Genre</span>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item text-danger" href="#"><b>Action</b></a>
+                        <a class="dropdown-item text-success" href="#"><b>Advanture</b></a>
+                        <a class="dropdown-item text-muted" href="#"><b>Comedy</b></a>
+                        <a class="dropdown-item text-info" href="#"><b>Drama</b></a>
+                        <a class="dropdown-item text-warning" href="#"><b>Fantasy</b></a>
+                        <a class="dropdown-item text-primary" href="#"><b>Game</b></a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#"><b>More</b>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div>
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://res.cloudinary.com/dhesbckj8/image/upload/v1663499820/12345_uagxg2.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block text-left">
+                        <h1><b>One Piece</b></h1>
+                        <p><b>Gold Roger was known as the "Pirate King,"<br>
+                                the strongest and most infamous being to have<br>
+                                sailed the Grand Line. The capture and execution<br>
+                                of Roger by the World Government brought a change<br>
+                                throughout the world. His last words before his<br>
+                                death revealed the existenc...</b></p>
+                        <div>
+                            <button class="btn btn-outline-light">Watch Now</button>
+                            <button class="btn btn-outline-primary text-white">Detail
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://res.cloudinary.com/dhesbckj8/image/upload/v1662879411/bleach_ptteu6.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block text-left">
+                        <h1>Bleach</h1>
+                        <p><b>Ichigo Kurosaki is an ordinary high<br>
+                                schooler—until his family is attacked<br>
+                                by a Hollow, a corrupt spirit<br>
+                                that seeks to devour human<br>
+                                souls. It is then that he meets a Soul Reaper<br>
+                                named Rukia Kuchiki, who<br>
+                                gets injured while protecting Ichigo's<br>
+                                family from the assail...</b></p>
+                        <div>
+                            <button class="btn btn-outline-light">Watch Now</button>
+                            <button class="btn btn-outline-warning text-white">Detail
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://res.cloudinary.com/dhesbckj8/image/upload/v1662879411/black-cover_hamwul.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block text-left">
+                        <h1>Black Clover</h1>
+                        <p><b>Asta and Yuno were abandoned at the<br>
+                                same church on the same day. Raised together<br>
+                                as children, they came to know of the "Wizard<br>
+                                King"—a title given to the strongest mage in the<br>
+                                kingdom—and promised that they would compete<br>
+                                against each other for the position of the...</b></p>
+                        <div>
+                            <button class="btn btn-outline-light">Watch Now</button>
+                            <button class="btn btn-outline-warning text-white">Detail
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://res.cloudinary.com/dhesbckj8/image/upload/v1662879411/jujustu_gpzeik.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 class="text-primary"><b>Jujutsu Kais<span class="text-danger">en</span></b></h1>
+                        <p><b>Idly indulging in baseless paranormal<br>
+                                activities with the Occult Club, high schooler<br>
+                                Yuuji Itadori spends his days at either the<br>
+                                clubroom or the hospital, where he visits his<br>
+                                bedridden grandfather. However, this leisurely<br>
+                                lifestyle soon takes a turn for the stran...</b></p>
+                        <div>
+                            <button class="btn btn-outline-light text-dark"><b>Watch Now</b></button>
+                            <button class="btn btn-outline-warning text-white">Detail
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <div class="main-top11">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="mb-4 full-bg pt-4">
+                        <div class="card">
+                            <h1 class="text-white">One Piece</h1>
+                            <div class="circle">
+                            </div>
+                            <div class="content">
+                                <h1 class="heading-1">One Piece</h1>
+                                <p class="paragraph">Gold Roger was known as the "Pirate King," the strongest
+                                    and most infamous being to have sailed the Grand Line.
+                                    The capture and execution of Roger by the World Government
+                                    brought a change throughout the world. His last words
+                                    before his death revealed the existenc</p>
+                                <a href=""><b><span class="view-more">View More </span></b></a>
+                            </div>
+                            <img src="https://res.cloudinary.com/dhesbckj8/image/upload/v1663510142/Luffy-removebg-preview_s7mver.png" />
+                            <div>
+                                <button class="btn text-white">Watch Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="mb-4 full-bg pt-4">
+                        <div class="card" id="card3">
+                            <h1 class="text-white">Bleach</h1>
+                            <div class="circle">
+                            </div>
+                            <div class="content">
+                                <h1 class="heading-1">Bleach</h1>
+                                <p class="paragraph">Ichigo Kurosaki is an ordinary high schooler—until
+                                    his family is attacked by a Hollow, a corrupt spirit
+                                    that seeks to devour human souls. It is then that
+                                    he meets a Soul Reaper named Rukia Kuchiki, who gets
+                                    injured while protecting Ichigo's family from the assail.</p>
+                                <a href=""><b><span class="view-more">View More </span></b></a>
+                            </div>
+                            <img src="https://res.cloudinary.com/dhesbckj8/image/upload/v1663597205/Ichigo-removebg-preview_n5mxof.png" />
+                            <div>
+                                <button class="btn text-white">Watch Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 pt-4">
+                    <div class="full-bg">
+                        <div class="card" id="card2">
+                            <div>
+                                <h1 class="text-white">One Piece</h1>
+                                <div class="circle">
+                                </div>
+                                <div class="content">
+                                    <h1 class="heading-1">Black Clover</h1>
+                                    <p class="paragraph">Gold Roger was known as the "Pirate King," the strongest
+                                        and most infamous being to have sailed the Grand Line.
+                                        The capture and execution of Roger by the World Government
+                                        brought a change throughout the world. His last words
+                                        before his death revealed the existenc</p>
+                                    <a href=""><b><span class="view-more">View More </span></b></a>
+                                </div>
+                                <img src="https://res.cloudinary.com/dhesbckj8/image/upload/v1663597837/Asta-removebg-preview_cywa3z.png" />
+                                <div>
+                                    <button class="btn text-white">Watch Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
